@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fef9f6;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  height: 12%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.logo-container {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow {
+  padding: 2px 4px;
+  background-color: rgb(241, 242, 244);
+  border-radius: 4px;
+  opacity: 1;
+}
+
+nav h3 a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.nav-items {
+  display: flex;
+  gap: 3rem;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: rgb(107, 107, 120);
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.nav-items a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.btns button {
+  padding: 8px 16px;
+  margin: 0.6rem;
+  border: none;
+  border-radius: 10px;
+
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  transition: all;
+  transition-duration: 2s;
+}
+
+.btns button:hover {
+  transform: scale(1.1);
+}
+
+.btns .btn1 {
+  color: #000;
+  font-weight: 600;
+  background-color: rgb(241, 242, 244);
+  opacity: 1;
+}
+
+.btns .btn2 {
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #000;
+}
+
+/* Hero Section */
+
+.content {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.content .backtext h3 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding: 5px;
+
+  margin-bottom: 0.5rem;
+}
+
+.backtext {
+  width: 18%;
+  margin: auto;
+  background-color: rgb(241, 242, 244);
+  opacity: 1;
+  border-radius: 40px;
+}
+
+.content h1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 82px;
+  line-height: 1.2;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2.3rem;
+}
+
+.content p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  color: rgb(107, 107, 120);
+  line-height: 1.4;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 1.6rem;
+}
+
+.btns .big-btn {
+  padding: 18px 30px;
+  border-radius: 14px;
+}
+
+.content h5 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: rgb(107, 107, 120);
+  font-weight: 400;
+}
+
+.reviews {
+  margin-top: 2.3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.reviews .imgs img {
+  margin-right: -1.2rem;
+  border: 3px solid #fef9f6;
+  border-radius: 30px;
+}
+
+.rating span {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.rating h5 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: rgb(107, 107, 120);
+}
+
+.right-btn {
+  text-align: right;
+  margin-top: -6rem;
+}
+
+.right-btn .buy-btn {
+  padding: 8px 16px;
+  margin: 0.6rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  transition: all;
+  transition-duration: 2s;
+}
+
+.right-btn .buy-btn:hover {
+  transform: scale(1.1);
+}
+
+.framer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 8px 16px;
+  margin: 0.6rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 17px;
+  margin-left: 82.5rem;
+  font-family: "Inter", sans-serif;
+}
+
+.framer-logo img {
+  width: 16px;
+  filter: invert(100);
+}
